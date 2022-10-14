@@ -1,0 +1,102 @@
+
+nav {
+    display: grid; 
+    grid-template-columns: 1.1fr 3.1fr 0.8fr 0.8fr 0.8fr 0.8fr; 
+    grid-template-rows: auto; 
+    gap: 2% 2px; 
+    grid-template-areas: 
+        "logo nombre link1 link2 link3 link4"; 
+    border: 1px solid #ccc;
+    box-shadow: 7px 7px 15px #592A08;
+    margin-bottom: 15px;
+}
+
+.nombre{
+    font-family: 'Pattaya', sans-serif;
+    font-size: 30pt;
+}
+
+.link{
+    text-align: center;
+    color: gray;
+    text-decoration: none;
+    padding: 5px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#link4{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px;
+    border: 1px;
+    
+    border-style: ridge;
+    border-color: gray;
+    border-radius: 20%;
+
+    
+}
+
+body {
+    background-image: url(/Pagina_Universidad-master/Imagenes/estudiante.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+
+}
+form {
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;     
+}
+h2 {
+    color: #ff914d;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+#boton{
+    background: #31384A;
+    color: #fff;
+    padding: 20px;
+}
+#boton:hover {
+    cursor: pointer;
+}
+@media (max-width:480px) {
+    form{
+        width: 100%;
+    }
+}
+
+h1.viajes{
+    margin: 2%;
+    text-align: center;
+    font-family: 'Pattaya', sans-serif;
+    color: #ff914d;
+}
+
+#Log{
+    background-image: url(https://webunwto.s3.eu-west-1.amazonaws.com/2020-04/restrction.jpg);
+}
+
+#back{
+    margin: 5%;
+    
+}
