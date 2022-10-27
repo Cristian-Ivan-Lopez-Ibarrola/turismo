@@ -1,0 +1,50 @@
+div.Encabezado{
+    display: grid; 
+    grid-template-columns: 0.7fr 2.1fr 1.1fr 1.1fr; 
+    grid-template-rows: auto; 
+    gap: 0% 0px; 
+    grid-template-areas: 
+    "logo frase telefono mail"; 
+
+}
+
+div#logo{
+    display: inline-flex;
+    margin: 15px;
+}
+
+div#frase{
+    display: inline-flex;
+}
+
+h1.frase{
+    display: inline-flex;
+    font-family: 'Fredericka the Great';
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+div#mail{
+    display: inline-flex;
+    margin: 20px;
+}
+
+div#telefono{
+    display: inline-flex;
+    margin: 20px;
+}
+
+div#mail p{
+    margin: 5px;
+}
+
+div#telefono p{
+    margin: 5px;
+}
+
+div.registro{
+    margin-left: 8%;
+    margin-top: 5%;
+}
